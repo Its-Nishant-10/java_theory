@@ -31,5 +31,6 @@ public class student_array {
         for (int i = 0; i < 10; i++) {
             arr[i].display();
         }
+
     }
 }
