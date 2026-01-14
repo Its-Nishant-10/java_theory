@@ -1,14 +1,14 @@
-class Counter {
+class Counte {
     static int count = 0;
 
-    Counter() {
+    Counte() {
         count++;
         System.out.println(count);
     }
 
     public static void main(String args[]) {
-        Counter c1 = new Counter();
-        Counter c2 = new Counter();
-        Counter c3 = new Counter();
+        Counte c1 = new Counte();
+        Counte c2 = new Counte();
+        Counte c3 = new Counte();
     }
 }
