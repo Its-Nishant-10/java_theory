@@ -6,8 +6,7 @@ public class student_meth {
     int id;
     String name;
 
-    void insert() {
-        Scanner scan = new Scanner(System.in);
+    void insert(Scanner scan) {
         System.out.println("Enter the Student ID");
         id = scan.nextInt();
         System.out.println("Enter the Student name");
@@ -19,13 +18,15 @@ public class student_meth {
     }
 
     public static void main(String args[]) {
+        Scanner scan = new Scanner(System.in);
         student_meth s1 = new student_meth();
-        s1.insert();
+        s1.insert(scan);
         student_meth s2 = new student_meth();
-        s2.insert();
+        s2.insert(scan);
         System.out.println("Nishant Nahar -- 241551078");
         System.out.println("The Student Details are - ");
         s1.display();
         s2.display();
+        scan.close();
     }
 }

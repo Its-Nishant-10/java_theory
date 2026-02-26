@@ -7,8 +7,8 @@ class Counte {
     }
 
     public static void main(String args[]) {
-        Counte c1 = new Counte();
-        Counte c2 = new Counte();
-        Counte c3 = new Counte();
+        new Counte();
+        new Counte();
+        new Counte();
     }
 }

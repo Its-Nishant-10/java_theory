@@ -6,8 +6,7 @@ public class student_array {
     int id;
     String name;
 
-    void insert() {
-        Scanner scan = new Scanner(System.in);
+    void insert(Scanner scan) {
         System.out.print("Enter the Student ID");
         id = scan.nextInt();
         System.out.print("Enter the Student name");
@@ -19,11 +18,12 @@ public class student_array {
     }
 
     public static void main(String args[]) {
+        Scanner scan = new Scanner(System.in);
         student_array arr[] = new student_array[10];
 
         for (int i = 0; i < 10; i++) {
             arr[i] = new student_array();
-            arr[i].insert();
+            arr[i].insert(scan);
         }
         System.out.println("Nishant Nahar -- 241551078");
         System.out.println("The Student Details are - ");
@@ -31,6 +31,6 @@ public class student_array {
         for (int i = 0; i < 10; i++) {
             arr[i].display();
         }
-
+        scan.close();
     }
 }
