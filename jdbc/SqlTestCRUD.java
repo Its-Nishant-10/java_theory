@@ -4,7 +4,7 @@ public class SqlTestCRUD {
     public static void main(String[] args) {
 
         String url = "jdbc:oracle:thin:@localhost:1521:XE";
-        String user = "system";
+        String user = "nishant_1078";
         String pass = "1021";
 
         try {

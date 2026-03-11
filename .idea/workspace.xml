@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7005ffc7-7cdb-4717-96ae-d7ab2f719b33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jdbc/SqlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/SqlTestCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_theory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_theory.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc/OracleJdbcTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc/sql.java" beforeDir="false" />
+    <list default="true" id="7005ffc7-7cdb-4717-96ae-d7ab2f719b33" name="Changes" comment="updation">
+      <change afterPath="$PROJECT_DIR$/assignment_14/deadlock_avoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment_14/interupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment_14/isinterupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment_14/life_thread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment_14/static_sync_ano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment_14/sync_ano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment_13/join.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_13/join.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment_14/deadlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_14/deadlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment_6/nscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_6/nscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/SqlTestCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/SqlTestCRUD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +40,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Counter.executor": "Run",
+    "Application.DeadlockExample.executor": "Run",
+    "Application.DeadlockShort.executor": "Run",
+    "Application.InterruptCheckDemo (1).executor": "Run",
+    "Application.InterruptCheckDemo.executor": "Run",
+    "Application.InterruptDemo.executor": "Run",
+    "Application.NoDeadlock.executor": "Run",
+    "Application.NoDeadlockExample.executor": "Run",
     "Application.OracleJdbcTest.executor": "Run",
     "Application.SqlTest.executor": "Run",
+    "Application.StaticSyncAnonymousDemo (1).executor": "Run",
+    "Application.StaticSyncAnonymousDemo.executor": "Run",
+    "Application.StaticSyncDemo (1).executor": "Run",
+    "Application.StaticSyncDemo (2).executor": "Run",
+    "Application.StaticSyncDemo (3).executor": "Run",
+    "Application.StaticSyncDemo.executor": "Run",
+    "Application.SynchronizedDemo (1).executor": "Run",
+    "Application.SynchronizedDemo.executor": "Run",
+    "Application.SynchronizedThreadDemo.executor": "Run",
+    "Application.ThreadLifeCycleDemo.executor": "Run",
+    "Application.ThreadLifeCycleSimple.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -48,16 +71,37 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SqlTest">
-    <configuration name="OracleJdbcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.OracleJdbcTest" />
+  <component name="RunManager" selected="Application.InterruptCheckDemo (1)">
+    <configuration name="DeadlockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DeadlockExample" />
       <module name="java_theory" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SqlTest" />
+    <configuration name="InterruptCheckDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterruptCheckDemo" />
+      <module name="java_theory" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterruptCheckDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterruptCheckDemo" />
+      <module name="java_theory" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterruptDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterruptDemo" />
+      <module name="java_theory" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoDeadlockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NoDeadlockExample" />
       <module name="java_theory" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,8 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SqlTest" />
-        <item itemvalue="Application.OracleJdbcTest" />
+        <item itemvalue="Application.InterruptCheckDemo (1)" />
+        <item itemvalue="Application.InterruptCheckDemo" />
+        <item itemvalue="Application.InterruptDemo" />
+        <item itemvalue="Application.NoDeadlockExample" />
+        <item itemvalue="Application.DeadlockExample" />
       </list>
     </recent_temporary>
   </component>
@@ -85,7 +132,20 @@
       <option name="presentableId" value="Default" />
       <updated>1773196785122</updated>
     </task>
+    <task id="LOCAL-00001" summary="updation">
+      <option name="closed" value="true" />
+      <created>1773198050361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773198050362</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updation" />
+    <option name="LAST_COMMIT_MESSAGE" value="updation" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

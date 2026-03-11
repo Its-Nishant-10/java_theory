@@ -14,8 +14,8 @@ class MyThread extends Thread {
 class join {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Nishant Nahar - 241551078");
-        MyThread t1 = new MyThread();
-        MyThread t2 = new MyThread();
+        inter t1 = new inter();
+        inter t2 = new inter();
         t1.setName("Thread 1");
         t2.setName("Thread 2");
         t1.start();
