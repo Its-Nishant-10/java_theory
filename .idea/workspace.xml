@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7005ffc7-7cdb-4717-96ae-d7ab2f719b33" name="Changes" comment="updation">
-      <change afterPath="$PROJECT_DIR$/assignment_14/deadlock_avoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment_14/interupt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment_14/isinterupt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment_14/life_thread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment_14/static_sync_ano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment_14/sync_ano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/del.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/insertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/prod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/update_price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swing/applet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swing/applet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_13/join.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_13/join.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_14/deadlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_14/deadlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_6/nscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_6/nscount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc/SqlTestCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/SqlTestCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_theory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_theory.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,13 @@
     <persistenceIdMap>
       <entry key="_C:/Users/ItsNishant/Documents/my_stuff/4th_sem/java_theory" value="3AmTXMAnfoXf6l2lR2qaLgrqFUC" />
     </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,12 +48,17 @@
     "Application.Counter.executor": "Run",
     "Application.DeadlockExample.executor": "Run",
     "Application.DeadlockShort.executor": "Run",
+    "Application.DeleteProduct.executor": "Run",
+    "Application.DisplayEmployee.executor": "Run",
+    "Application.InsertStudent.executor": "Run",
     "Application.InterruptCheckDemo (1).executor": "Run",
     "Application.InterruptCheckDemo.executor": "Run",
     "Application.InterruptDemo.executor": "Run",
+    "Application.K.executor": "Run",
     "Application.NoDeadlock.executor": "Run",
     "Application.NoDeadlockExample.executor": "Run",
     "Application.OracleJdbcTest.executor": "Run",
+    "Application.ProductProgram.executor": "Run",
     "Application.SqlTest.executor": "Run",
     "Application.StaticSyncAnonymousDemo (1).executor": "Run",
     "Application.StaticSyncAnonymousDemo.executor": "Run",
@@ -56,11 +66,15 @@
     "Application.StaticSyncDemo (2).executor": "Run",
     "Application.StaticSyncDemo (3).executor": "Run",
     "Application.StaticSyncDemo.executor": "Run",
+    "Application.StudentExample.executor": "Run",
+    "Application.StudentProgram.executor": "Run",
     "Application.SynchronizedDemo (1).executor": "Run",
     "Application.SynchronizedDemo.executor": "Run",
     "Application.SynchronizedThreadDemo.executor": "Run",
     "Application.ThreadLifeCycleDemo.executor": "Run",
     "Application.ThreadLifeCycleSimple.executor": "Run",
+    "Application.UpdateProduct.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -68,40 +82,43 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/ItsNishant/Documents/my_stuff/4th_sem/java_theory",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.InterruptCheckDemo (1)">
-    <configuration name="DeadlockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeadlockExample" />
+  <component name="RunManager" selected="Application.K">
+    <configuration name="DeleteProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DeleteProduct" />
       <module name="java_theory" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptCheckDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterruptCheckDemo" />
+    <configuration name="K" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="K" />
       <module name="java_theory" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptCheckDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterruptCheckDemo" />
+    <configuration name="ProductProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProductProgram" />
       <module name="java_theory" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterruptDemo" />
+    <configuration name="StudentProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StudentProgram" />
       <module name="java_theory" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoDeadlockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NoDeadlockExample" />
+    <configuration name="UpdateProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpdateProduct" />
       <module name="java_theory" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterruptCheckDemo (1)" />
-        <item itemvalue="Application.InterruptCheckDemo" />
-        <item itemvalue="Application.InterruptDemo" />
-        <item itemvalue="Application.NoDeadlockExample" />
-        <item itemvalue="Application.DeadlockExample" />
+        <item itemvalue="Application.K" />
+        <item itemvalue="Application.DeleteProduct" />
+        <item itemvalue="Application.UpdateProduct" />
+        <item itemvalue="Application.ProductProgram" />
+        <item itemvalue="Application.StudentProgram" />
       </list>
     </recent_temporary>
   </component>
